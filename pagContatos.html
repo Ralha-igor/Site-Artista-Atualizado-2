@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato do Artista:</title>
+</head>
+<body>
+    <header>
+        <h1><center>Contatos</center></h1>
+    </header>
+
+    <nav>
+        <li><a href="#">home</a></li>
+        <li><a href="#"> informações</a></li>
+        <li><a href="#">contato</a></li>
+    </nav>
+
+    <header> Exercicio Formulario </header>
+    <br><br>
+    <nav> </nav>
+    <main> 
+        
+        <fieldset>
+            <legend>Informações Pessoais:</legend>
+            <br><br>
+            <section>
+                <form method="post"> 
+                
+                <label>Nome: </label>
+                <input type=”text” name=nome id=”nome”>
+                <br> <br>
+                <label>Email: </label>
+                <input type="email" name="email" id="email">
+                <br> <br>
+                <label>Senha: </label>
+                <input type="password" name="senha" id="senha">
+                <br> <br>
+                <label>Telefone: </label>
+                <input type="tel" name="numero" id="numero">
+                <br> <br>
+                <label>Idade: </label>
+                <input type="number" name="idade" id="idade" name="Altura" id="Altura" step="1" min ="0" max="100"> > 
+                <br> <br>
+                <label>Digite sua data de Nascimento:</label>
+                <input type="date" name="aniversario" id="aniversario">
+                <br> <br>
+                <label>Selecione seu Genero: </label>
+                <select name="genero" id="genero">
+                    <option value=”Masc”> Masculino </option>
+                    <option value=”Fem”> Feminino </option>
+                 </select>
+        </fieldset>   
+        <fieldset>
+            <legend>Preferências: </legend>
+            <label>Qual Esporte voce Mais Gosta: </label>
+                <select name="esporte" id="esporte">
+                    <option value=”Masc”> Tenis </option>
+                    <option value=”Masc”> Basquete </option>
+                    <option value=”Masc”> Futebol </option>
+                    <option value=”Masc”> Volei </option>
+                    <option value=”Masc”> HandBol </option>
+
+                </select>
+                <br>
+            <label>Selecione o que voce mais gosta: </label>
+                <select name="preferência" id="preferência">
+                    <option value=”Masc”> Tenis </option>
+                    <option value=”Fem”> Bola </option>
+                    <option value=”Fem”> Camisa de Time </option>
+                    <option value=”Fem”> Bermuda de Time </option>
+                    <option value=”Fem”> Posição Amador </option>
+                    <option value=”Fem”> Posição Ala  2 </option>
+                    <option value=”Fem”> Posição Ala  3 </option>
+                    <option value=”Fem”> Posição Pivo 4 </option>
+                    <option value=”Fem”> Posição Pivo 5 </option>
+
+                 </select>
+        </fieldset>      
+        <fieldset>
+            <legend>Biografia</legend>
+            <textarea name="Biografia" id="biografia" cols="80" rows="5"></textarea>
+        </fieldset> 
+        <fieldset>
+            <legend>Foto</legend>
+            <input type="file" name="imagem" id="imagem" accept="image/png, image/jpeg">
+        </fieldset>
+                </form>            
+            </section>
+        
+    </main>
+
+
+    <footer>
+        <a href="https://www.instagram.com/reynan_29/"> <br><br> <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"  alt=""width= "50px"></a>
+        
+            <center><input type="submit" value="Enviar"></center>
+            
+            <center>
+                &copy; Formulario de Envio
+         </center>
+    </footer>
+</body>
+</html>
